@@ -72,3 +72,8 @@ fieldset{
   font-size: 20px;
   background-color: #243447;
 }
+#footer{
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+}
