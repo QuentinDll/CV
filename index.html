@@ -2,33 +2,38 @@
 <html>
 <head>
   <meta charset="utf-8" />
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <title>Cv Numérique</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 </head>
 <body>
-  <div class="topnav">
+  <div class="navbar stiky-top navbar-collapse" id="topnav">
     <a href="#fspresentation" class="pres">Présentation</a>
+    <a href="#fscontact" class="cont">Contacts</a>
     <a href="#fscompetence" class="comp">Compétences</a>
     <a href="#fsexperience" class="exp">Expériences</a>
     <a href="#fsformation" class="form">Formations</a>
-    <a href="#fscontact" class="cont">Contacts</a>
     <a href="#fscentredinteret" class="cint">Centres d'intérêts</a>
   </div>
-  <div class="wrapperall">
-    <fieldset id="fspresentation">
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="wrapperall">
+    <fieldset class="col-xs-12 col-sm-12 col-md-4 col-lg-4" id="fspresentation">
       <p><strong>Delplace Quentin</strong><br />Né le 1 Novembre 1998</p>
       <p>86 rue du Maréchal Leclerc - 60400 Noyon<br /></p>
     </fieldset>
-    <fieldset id="fscontact">
+    <fieldset class="col-xs-12 col-sm-12 col-md-4 col-lg-4" id="fscontact">
       <legend>Contacts</legend>
       <ul>
         <li>Mail : quentin.delplace13@gmail.com</li>
         <li>Mobile : 07 67 93 57 65</li>
       </ul>
     </fieldset>
-    <fieldset id="fscompetence">
+    <fieldset class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="fscompetence">
       <legend>Compétences</legend>
       <ul>
+        <li><progress value="50" max="100">50%</progress>  Codage Html</li>
+        <li><progress value="50" max="100">50%</progress>  Codage CSS</li>
         <li><progress value="70" max="100">70%</progress>  Accueil et conseille clientèle</li>
         <li><progress value="90" max="100">90%</progress>  Réception de marchandises</li>
         <li><progress value="90" max="100">90%</progress>  Vérification de bons de livraison</li>
@@ -38,7 +43,7 @@
         <li><progress value="70" max="100">70%</progress>  Niveau en Anglais courant</li>
       </ul>
     </fieldset>
-    <fieldset id="fsexperience">
+    <fieldset class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="fsexperience">
       <legend>Expériences</legend>
       <ul>
         <li>2018 2 Semaines : Technicien Informatique - MPC Info, Noyon</li>
@@ -50,7 +55,7 @@
         <li>2014 1 Semaine : Poseur monteur - Vitraux-Max, Noyon</li>
       </ul>
     </fieldset>
-    <fieldset id="fsformation">
+    <fieldset class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="fsformation">
       <legend>Formations</legend>
       <ul>
         <li>2018 : E2N - NOVEI, Noyon</li>
@@ -58,7 +63,7 @@
         <li>2014-2016 : Bac Pro Système Electronique Numérique (niveau) - Lycée Arthur Rimbaud, Ribécourt</li>
       </ul>
     </fieldset>
-    <fieldset id="fscentredinteret">
+    <fieldset class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="fscentredinteret">
       <legend>Centres d'intérêt</legend>
       <ul>
         <li>La Musiques</li>
@@ -68,7 +73,7 @@
         <li>La pop-culture</li>
       </ul>
     </fieldset>
-    <div id="footer">Footer</div>
   </div>
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="footer">Written in Html5 with Atom</div>
 </body>
 </html>

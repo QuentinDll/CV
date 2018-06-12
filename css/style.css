@@ -5,31 +5,32 @@ body{
   background-color: #141D26;
   color: #EFEFEF;
 }
-.topnav{
+#topnav{
   background-color: #243447;
   overflow: hidden;
   position: fixed;
   top: 0;
   width: 100%;
 }
-.topnav a{
+#topnav a{
   float: left;
   display: block;
   color: #EFEFEF;
+  text-shadow: 0 4px 8px black;
   text-align: left;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 18px;
 }
-.topnav a:hover{
+#topnav a:hover{
   background-color: ##243447;
   color: #EFEFEF;
 }
-.topnav a:active{
+#topnav a:active{
   background-color: #159DF2;
   color: #EFEFEF
 }
-.wrapperall{
+#wrapperall{
   width: 1190px;
   height: 100%;
   margin: 0 auto;
@@ -41,6 +42,7 @@ fieldset{
   float: left;
   margin-bottom: 70px;
   background-color: #243447;
+  box-shadow: 0 4px 8px #000;
   font-size: 18px;
   color: #EFEFEF;
 }
@@ -54,26 +56,30 @@ fieldset{
 }
 #fscontact legend{
   font-size: 20px;
-  background-color: #243447;
+  text-shadow: 0 4px 8px black;
 }
 #fscompetence legend{
   font-size: 20px;
-  background-color: #243447;
+  text-shadow: 0 4px 8px black;
 }
 #fsexperience legend{
   font-size: 20px;
-  background-color: #243447;
+  text-shadow: 0 4px 8px black;
 }
 #fsformation legend{
   font-size: 20px;
-  background-color: #243447;
+  text-shadow: 0 4px 8px black;
 }
 #fscentredinteret legend{
   font-size: 20px;
-  background-color: #243447;
+  text-shadow: 0 4px 8px black;
 }
 #footer{
-  height: 100px;
-  position: absolute;
+  position: fixed;
   bottom: 0;
+  width: 100%;
+  height: 15px;
+  background-color: #243447;
+  font-size: 12px;
+  text-align: center;
 }
