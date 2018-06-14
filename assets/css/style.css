@@ -1,5 +1,5 @@
 body{
-  background-image: url("657580.jpg");
+  background-image: url("../img/657580.jpg");
   background-repeat: repeat;
   background-position: center top;
   background-color: #000;
@@ -46,10 +46,13 @@ fieldset{
   font-size: 18px;
   color: #FFF;
 }
-progress{color: #045E78; background: #5A7A93;}
+progress{text-align: center; height: 1.5em; background: #5A7A93;}
 progress::-moz-progress-bar { background: #045E78;}
 progress::-webkit-progress-bar { background: #045E78;}
 progress::-webkit-progress-value { background: #045E78;}
+p{
+  text-align: center;
+}
 fieldset>legend{
   color: #FFF;
   font-size: 20px;
